@@ -1,0 +1,35 @@
+body{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1, #div2{
+    height: 300px;
+    width: 300px;
+    color: black;
+    background-color: rgb(163, 163, 163);
+    margin: 40px;
+    padding: 20px;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    height: 50px;
+    width: 120px;
+}
+
+.btn-saludo{
+    cursor: pointer;
+}
+
+.btn-saludo:hover{
+    transform: scale(1.05);
+}
